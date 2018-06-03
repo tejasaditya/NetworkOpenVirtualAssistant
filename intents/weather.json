@@ -1,0 +1,62 @@
+{
+  "id": "f0374ff6-8cea-4a67-8a74-1ae8bf44d826",
+  "name": "weather",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "location",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "id": "64e2d78d-500d-4e32-a19c-68bfe59a70d6",
+          "required": false,
+          "dataType": "@sys.date",
+          "name": "date",
+          "value": "$date",
+          "isList": false
+        },
+        {
+          "id": "ac3632d8-f980-4ebb-baf5-1061a24ab4ba",
+          "required": true,
+          "dataType": "@sys.geo-city",
+          "name": "geo-city",
+          "value": "$geo-city",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "For what city would you like the weather?"
+            }
+          ],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": [
+            "Sorry, I don\u0027t know the weather!",
+            "I am not sure about the weather on $date",
+            "I don\u0027t know the weather for $date in $geo-city",
+            "I don\u0027t know the weather in $geo-city"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1527623459,
+  "fallbackIntent": false,
+  "events": []
+}

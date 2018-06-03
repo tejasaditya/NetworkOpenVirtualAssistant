@@ -1,0 +1,144 @@
+[
+  {
+    "id": "a54ee1f5-45a6-4c2a-a877-ad3988532ffd",
+    "data": [
+      {
+        "text": "weather in ",
+        "userDefined": false
+      },
+      {
+        "text": "New York",
+        "alias": "geo-city",
+        "meta": "@sys.geo-city",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "tomorrow",
+        "alias": "date",
+        "meta": "@sys.date",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1527256249
+  },
+  {
+    "id": "08d93551-9935-4417-b9b6-5268592229e8",
+    "data": [
+      {
+        "text": "weather forecast in ",
+        "userDefined": false
+      },
+      {
+        "text": "San Francisco",
+        "alias": "geo-city",
+        "meta": "@sys.geo-city",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1527256249
+  },
+  {
+    "id": "54d23859-a018-4703-857d-9f9616f46f0b",
+    "data": [
+      {
+        "text": "weather for ",
+        "userDefined": false
+      },
+      {
+        "text": "today",
+        "alias": "date",
+        "meta": "@sys.date",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1527256249
+  },
+  {
+    "id": "1976b398-4866-4cd1-9c89-ef012cf0c07a",
+    "data": [
+      {
+        "text": "what is the weather ",
+        "userDefined": false
+      },
+      {
+        "text": "tomorrow",
+        "alias": "date",
+        "meta": "@sys.date",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1527256249
+  },
+  {
+    "id": "23b32628-c56e-4912-b429-44a9ff646f2b",
+    "data": [
+      {
+        "text": "What is the weather",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1527256249
+  },
+  {
+    "id": "269715b8-ffdf-4ac1-9297-2389153ad5fd",
+    "data": [
+      {
+        "text": "weather",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1527256249
+  },
+  {
+    "id": "22d1c24f-e29e-4490-abc1-02f729aff82e",
+    "data": [
+      {
+        "text": "Weather forecast",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1527256249
+  },
+  {
+    "id": "95e70493-e036-4c6d-b7c8-22665e4532a2",
+    "data": [
+      {
+        "text": "What is the weather supposed to be",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1527256249
+  },
+  {
+    "id": "5dbac9d2-0c84-4ad5-b8af-a03a3c0060b1",
+    "data": [
+      {
+        "text": "What is the weather like",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1527256249
+  }
+]
